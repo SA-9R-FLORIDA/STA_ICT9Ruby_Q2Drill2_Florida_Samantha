@@ -1,0 +1,458 @@
+
+body {
+    font-family: "Gill Sans", "Gill Sans MT", sans-serif;
+    margin: 0;
+    background-color: #BFE6FF;
+    color: black;
+}
+
+.navbar {
+    padding: 15px;
+    background-color: white;
+}
+
+.navbar-brand img {
+    height: 55px;
+}
+
+.nav-link {
+    font-size: 20px;
+    margin-right: 10px;
+    color: black !important;
+}
+
+.nav-link:hover {
+    color: #1685C5 !important;
+}
+
+.portal-btn {
+    font-size: 16px;
+}
+
+.header {
+    background-color: #BFE6FF;
+    padding: 100px 20px;
+}
+
+.content {
+    background-color: white;
+    padding: 25px;
+}
+
+.content h1 {
+    color: black;
+    font-size: 40px;
+}
+
+.content p {
+    color: black;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+.welcome-box {
+    background-color: white;
+    padding: 35px;
+}
+
+.welcome-box h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.welcome-box p {
+    color: black;
+    font-size: 19px;
+    line-height: 1.6;
+}
+
+.about-header {
+    background-color: #BFE6FF;
+    padding: 65px 20px 20px;
+    text-align: center;
+}
+
+.about-header h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.about-header p {
+    font-size: 20px;
+    color: black;
+}
+
+/* Main White Box */
+
+.about-main-box {
+    background-color: white;
+    padding: 40px;
+    max-width: 850px;
+    margin: auto;
+}
+
+.about-main-box h2 {
+    color: black;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.about-main-box h3 {
+    color: black;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.about-main-box p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+.about-main-box hr {
+    border: 1px solid #1685C5;
+    margin: 25px 0;
+}
+
+.campuses-header {
+    background-color: #BFE6FF;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.campuses-header h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.campuses-header p {
+    font-size: 20px;
+    color: black;
+}
+
+/* Campus Cards */
+
+.campus {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.campus h4 {
+    color: black;
+}
+
+.campus p {
+    color: black;
+}
+
+.campus-card {
+    min-height: 145px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+
+.contact-header {
+    background-color: #BFE6FF;
+    padding: 65px 20px 20px;
+    text-align: center;
+}
+
+.contact-header h1 {
+    font-size: 40px;
+    color: black;
+}
+
+.contact-header p {
+    font-size: 20px;
+    color: black;
+}
+
+/* Contact White Box */
+
+.contact-box {
+    background-color: white;
+    padding: 40px;
+    max-width: 750px;
+    margin: auto;
+}
+
+.contact-box h2 {
+    color: black;
+    margin-bottom: 10px;
+}
+
+.contact-box h4 {
+    color: black;
+    margin-top: 25px;
+}
+
+.contact-box p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.contact-box hr {
+    border: 1px solid #1685C5;
+    margin: 25px 0;
+}
+
+/* Explore More Section */
+
+.explore-box {
+    background-color: white;
+    padding: 35px;
+    margin-bottom: 40px;
+}
+
+.explore-box h2 {
+    color: black;
+    margin-bottom: 15px;
+}
+
+.explore-box p {
+    color: black;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+
+footer {
+    background-color: white;
+    color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin-bottom: 8px;
+}
+
+
+
+@media screen and (max-width: 768px) {
+
+    /* Navbar */
+
+    .navbar {
+        padding: 10px;
+    }
+
+    .nav-link {
+        font-size: 17px;
+        margin-right: 0;
+    }
+
+    /* Home */
+
+    .header {
+        padding: 40px 15px;
+    }
+
+    .content {
+        padding: 20px;
+    }
+
+    .content h1 {
+        font-size: 30px;
+    }
+
+    .content p {
+        font-size: 16px;
+    }
+
+    .welcome-box {
+        padding: 25px;
+    }
+
+    /* About */
+
+    .about-header {
+        padding: 40px 15px 15px;
+    }
+
+    .about-header h1 {
+        font-size: 30px;
+    }
+
+    .about-main-box {
+        padding: 25px;
+    }
+
+    .about-main-box h2 {
+        font-size: 25px;
+    }
+
+    .about-main-box p {
+        font-size: 16px;
+    }
+
+    /* Campuses */
+
+    .campuses-header {
+        padding: 40px 15px;
+    }
+
+    .campuses-header h1 {
+        font-size: 30px;
+    }
+
+    .campuses-header p {
+        font-size: 17px;
+    }
+
+    .campus {
+        margin-bottom: 15px;
+    }
+
+    /* Contact */
+
+    .contact-header {
+        padding: 40px 15px 15px;
+    }
+
+    .contact-header h1 {
+        font-size: 30px;
+    }
+
+    .contact-box {
+        padding: 25px;
+    }
+
+    .contact-box p,
+    .explore-box p {
+        font-size: 16px;
+    }
+
+    .explore-box {
+        padding: 25px;
+    }
+
+    /* Footer */
+
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+
+}
+
+/* =================================
+   RESPONSIVE DESIGN - PHONES
+================================= */
+
+@media screen and (max-width: 480px) {
+
+    /* Navbar */
+
+    .navbar-brand img {
+        height: 45px;
+    }
+
+    /* Home */
+
+    .content h1 {
+        font-size: 26px;
+    }
+
+    .content p {
+        font-size: 15px;
+    }
+
+    .welcome-box {
+        padding: 20px;
+    }
+
+    .welcome-box p {
+        font-size: 15px;
+    }
+
+    /* About */
+
+    .about-header h1 {
+        font-size: 26px;
+    }
+
+    .about-header p {
+        font-size: 16px;
+    }
+
+    .about-main-box {
+        padding: 20px 15px;
+    }
+
+    .about-main-box h2 {
+        font-size: 23px;
+    }
+
+    .about-main-box h3 {
+        font-size: 20px;
+    }
+
+    .about-main-box p {
+        font-size: 15px;
+    }
+
+    /* Campuses */
+
+    .campuses-header h1 {
+        font-size: 26px;
+    }
+
+    .campuses-header p {
+        font-size: 15px;
+    }
+
+    .campus {
+        padding: 15px;
+    }
+
+    /* Contact */
+
+    .contact-header h1 {
+        font-size: 28px;
+    }
+
+    .contact-header p {
+        font-size: 16px;
+    }
+
+    .contact-box {
+        padding: 25px 15px;
+    }
+
+    .contact-box h2 {
+        font-size: 24px;
+    }
+
+    .contact-box h4 {
+        font-size: 19px;
+    }
+
+    .contact-box p {
+        font-size: 15px;
+    }
+
+    .explore-box {
+        padding: 20px 15px;
+    }
+
+    .explore-box h2 {
+        font-size: 23px;
+    }
+
+    .explore-box p {
+        font-size: 15px;
+    }
+
+    .explore-box .btn {
+        display: block;
+        width: 100%;
+        margin: 10px 0 !important;
+    }
+
+}
